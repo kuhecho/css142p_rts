@@ -1,0 +1,9 @@
+test,result,pass
+Trace test,"5 vehicles traced; delays 3.8, 4.2, 50.0, 3.2, 44.5 s; entries respect t_f and t_c",True
+Event-log checks,859 events; clock monotone = True; arrivals = entries + queued = True,True
+Zero demand,total queue = 0.00,True
+Queuing limit,sim 2.38 ± 0.19 s vs M/D/1 2.41 s,True
+High circulating flow,"A1 vc = 844 PCE/h; mean queue A2-A6 = 795 veh, still growing",True
+Zero critical gap,max mean delay 1.23 s (only t_f limits entry),True
+Demand sweep,factor 0.6/0.8/1.0/1.1 -> delay 4.3 / 9.0 / 23.9 / 141.5 s,True
+Reproducibility,two runs with seed 7 identical,True
