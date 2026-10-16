@@ -1,11 +1,11 @@
-# Roundabout Traffic Flow Simulation
+# RTS: Roundabout Traffic Simulation
 
 Modeling and simulation of peak-period traffic at the Quezon Memorial Circle (Elliptical Road), Quezon City.
 Course project for CSS142P (FOPM01), Mapúa University, by Frank Charles Agliam.
 
 ## Description
 
-A discrete-event simulation built with SimPy models the six approaches to the roundabout (Commonwealth, Visayas, North, Quezon, East and Kalayaan) using gap acceptance and first-in-first-out entry queues. The model is checked against M/M/1 and M/G/1 queuing formulas and the HCM 7th Edition capacity equation, then used to compare scenarios: relocated pedestrian crossings, an added entry lane on Commonwealth Avenue, metering at Kalayaan, and demand increases of 10% and 20%. Each run uses 30 replications, a 15-minute warm-up and a 2-hour peak. A sensitivity analysis is included.
+RTS is a discrete-event simulation built with SimPy models the six approaches to the roundabout (Commonwealth, Visayas, North, Quezon, East and Kalayaan) using gap acceptance and first-in-first-out entry queues. The model is checked against M/M/1 and M/G/1 queuing formulas and the HCM 7th Edition capacity equation, then used to compare scenarios: relocated pedestrian crossings, an added entry lane on Commonwealth Avenue, metering at Kalayaan, and demand increases of 10% and 20%. Each run uses 30 replications, a 15-minute warm-up and a 2-hour peak. A sensitivity analysis is included.
 
 Demand, origin-destination shares and the reference sample are planning-level assumptions, not field data.
 
